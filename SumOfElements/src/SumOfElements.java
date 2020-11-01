@@ -1,10 +1,6 @@
 /*******************************************************************************
-*Name: Feras Isied
-* Class: CS 141
-* Quarter: Winter 2019
-* Assignment: Summing all elements / Assignment 7
-* Description: Summing all elements in specified row and element in an array
-*
+*Name: Feras
+*Description: Summing all elements in specified row and element in an array
  ******************************************************************************/
 import java.util.Scanner;
 public class SumOfElements {
@@ -47,6 +43,7 @@ public class SumOfElements {
             total += m[rowIndex][column];
         }//end for loop
         return total;
+        
     }//end method rowIndex
 }//end class
 
